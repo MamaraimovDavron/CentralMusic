@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main--container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main--container .box-one{
+    height: 808px;
+    background-image: url('./unsplash_gioH4gHo0-g.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main--container .box-one nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.main--container .box-one nav .nav-in{
+    display: flex;
+    align-items: center;
+}
+
+.main--container .box-one nav .nav-in h1{
+    font-size: 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main--container .box-one nav .nav-in h1 span{
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main--container .box-one nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+}
+
+.main--container .box-one nav ul li{
+    list-style: none;
+}
+
+.main--container .box-one nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    line-height: 130%;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.main--container .box-one nav ul li a:hover{
+    color: grey;
+    transition: 0.3s;
+}
+
+.main--container .box-one nav .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.main--container .box-one nav .icons img{
+    cursor: pointer;
+}
+
+.main--container .box-one .text-inside{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    width: 579px;
+    height: 201px;
+    margin: 100px;
+    color: #FFFFFF;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/* Box two */
+
+.main--container .box-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+    position: absolute;
+    height: 280px;
+    left: 88px;
+    right: 88px;
+    top: 664px;
+    background-blend-mode: darken, normal;
+    /* Shaddow 1 */
+
+    /* box-shadow: 0px 2px 4px rgba(28, 5, 77, 0.1), 0px 12px 32px rgba(0, 0, 0, 0.05); */
+    border-radius: 10px;
+}
+
+/* Box three */
+
+.main--container .box-three{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    margin-top: 96px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main--container .box-three h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    /* identical to box height, or 48px */
+    text-align: center;
+    color: #505050;
+}
+
+.main--container .box-three .img-box{
+    display: flex;
+    flex-direction: row;   
+}
